@@ -1,3 +1,6 @@
+#This script contains a function to compute the point-wise deviance residuals for the mixed-effect extension of the dynamic actor-
+#oriented model
+
 pointWiseDeviance <- function(phi, #vector of fixed effects parameters
                               gamma, #vector of parameters sender model
                               psi, #vector of fixed effects parameters
