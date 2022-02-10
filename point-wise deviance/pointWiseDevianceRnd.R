@@ -1,3 +1,6 @@
+#This script contains a function to compute the point-wise deviance residuals for the random-effect extension of the dynamic actor-
+#oriented model
+
 pointWiseDeviance <- function(gamma, #vector of parameters sender model
                               beta, #vector of parameters receiver model
                               statsSnd, #array of statistics sender
