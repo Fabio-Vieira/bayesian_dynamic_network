@@ -20,6 +20,7 @@ options(mc.cores = 1)
 fit_receiver <- sampling(receiver_model, data = data, iter = 2000, chains = 1, 
                          init = "0", control = list(adapt_delta = 0.999,
                                                     max_treedepth = 15))
+saveRDS(as.data.frame(fit_receiver), "receiver_model.rds") #saving samples
 (t4 <- Sys.time() - t3)
 
 ###################################################################################
@@ -39,4 +40,5 @@ options(mc.cores = 1)
 fit_sender <- sampling(sender_model, data = data, iter = 2000, chains = 1, 
                        init = "0", control = list(adapt_delta = 0.999,
                                                   max_treedepth = 15))
+saveRDS(as.data.frame(fit_sender), "sender_model.rds") #saving samples
 (t8 <- Sys.time() - t7)
