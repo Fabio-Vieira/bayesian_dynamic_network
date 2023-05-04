@@ -12,9 +12,9 @@ data {
   //size of the riskset in each cluster
   int riskset[N];
   //data array of random effects
-  matrix[sum(riskset),covR] SR[max(events)];
+  matrix[sum(actor),covR] SR[max(events)];
   //array containing the multinomial counts of events
-  int counts[sum(riskset),N,max(events)];
+  int counts[max(actor),N,max(events)];
   //auxiliary matrix indicating which intensities to sum for the actors
   int actorIntensity[max(actor),N];
   //vector of 1's
