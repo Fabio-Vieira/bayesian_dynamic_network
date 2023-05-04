@@ -1,6 +1,6 @@
 #This script implements the random effects test accoding to the paper
-#This is an example according of computing the test for one random effect
-#You will need to make a loop around to code to compute the test for all
+#This is an example of computing the test for one random effect
+#We will need to run a loop around to code to compute the test for all
 #random effects in your model
 
 #Here we use the example of the toy data on github, where we had 10 groups
