@@ -1,6 +1,6 @@
 # Files
 
-These are the files used for <https://arxiv.org/pdf/2204.10676.pdf>.
+These are the files used for <https://arxiv.org/pdf/2204.10676.pdf>. The real data used in the paper is not included, it belongs to Daniel McFarland and for privacy reasons it cannot be shared.
 
 # Abstract
 
